@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+        <form action="resultado.html" method="POST">
+        <p>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required></input>
+        </p>
+  
+        <p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required></input>
+        </p>
+        
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required></input>
+        </p>
+
+        <p>
+            <label>Voce foi ao cinema?</label>
+        </p>
+
+        <p>
+            <input type="radio" id="sim" name="cinema" value="sim"><label for="sim">Sim</label>
+            <input type="radio" id="nao" name="cinema" value="nao"><label for="nao">Não</label>
+            <input type="radio" id="talvez" name="cinema" value="talvez"><label for="talvez">Talvez</label>
+        </p>
+        
+        <p>
+            <label for="genero">Qual o genero de cinema favorito?</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="genero" id="terror" value="terror"><label for="terror">Terror</label>
+            <br>
+
+            <input type="checkbox" name="genero" id="romance" value="romance"><label for="romance">Romance</label>
+            <br>
+
+            <input type="checkbox" name="genero" id="suspense" value="suspense"><label for="suspense">Suspense</label>
+            <br>           
+        </p>
+
+        <label for="pais">País</label>
+        <p>
+            <select name="pais" id="pais">
+                <option selected disabled>Selecione</option>
+                <option value="BRA">Brasil</option>
+                <option value="AR">Argentina</option>
+                <option value="UY">Uruguai</option>
+            </select>
+        </p>    
+        <label for="mensagem">Mensagem</label>
+
+        <p>
+            <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea>
+        </p>
+  
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+
+        <!--
+        <p>
+            <button type="button">Teste</button>
+            <button type="reset">Limpar campos</button>
+            <button type="submit">Enviar</button>
+
+        </p>
+        -->
+
+
+      </form>
+</body>
+</html>
