@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone Twitter</title>
+  <link rel="shortcut icon" href="/assets/ico/twitter.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container-principal">
+    <!-- Icones do header -->
+    <div class="content-main">
+      <header>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="/assets/image/twitter.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/icones/home.png" alt="" class="link-hover">
+              <span class="default-size">Página Inicial</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/icones/notification.png" alt="" class="link-hover">
+              <span class="default-size" >Notificações</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/icones/email.png" alt="" class="link-hover">
+              <span class="default-size">Mensagens</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/icones/salvar.png" alt="" class="link-hover">
+              <span class="default-size">Itens salvos</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="/assets/icones/lists.png" alt="" class="link-hover">
+              <span class="default-size">Listas</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="/assets/icones/profile.png" alt="" class="link-hover">
+              <span class="default-size">Perfil</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="/assets/icones/more.png" alt="" class="link-hover">
+              <span class="default-size">Mais</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="btn-tweetar">
+              <!-- Lembrando que ele é um button-->
+              <span class="default-size btn">Tweetar</span>
+            </a>
+          </li>
+        </ul>
+      </header>
+    </div> <!-- Fim - Icones do header  -->
+
+    <div class="container-pai">
+      <!-- Timeline do feed -->
+      <div class="timeline">
+        <div class="page-initial">
+          <span class="default-size" class="paginainicial">Página Inicial</span>
+          <img  class="imagem" src="/assets/icones/notification.png" alt="icone-estrela">
+        </div>
+
+        <div class="content-profile-pai">
+          
+          <div class="profile-img">
+            <img class="img-profile" src="/assets/icones/profile.png" alt="profile">
+            <div class="profile-input">
+
+              <textarea name="" id="textarea" cols="70" rows="3" placeholder="O que voce esta pensando?"></textarea> 
+            </div> 
+          </div>
+
+          <div class="content-profile-icone">
+            <div class="all-icone">
+
+              <button type="submit" class="default-size btn">Tweetar</button>
+            </div>
+          </div>
+
+          <div class="timeline-principal">
+            <!-- Timeline - Onde a publicação foi publicada -->
+            <section class="space-background">
+              
+              <div class="space-info">
+                
+                <div class="space-right">
+                  <img src="/assets/icones/profile.png" alt="perfil" class="img-profile">
+                </div>
+                  
+                <div class="content-info">
+                  
+                    <a href="#">Dólar Bipolar 🏦</a>
+                    <span>@DolarBipolar</span>
+                    <span>4 min</span>
+                    <img src="/assets/icones/Vector.png" alt="arrow-seta" >
+                  
+                
+                  <div class="content-text">
+                    <span>Dólar caiu :) - R$5,16 às 12:40</span>
+                  </div>
+
+                  <div class="icones">
+                    <a href="#">
+                      <img src="/assets/img/comente 1.png" alt="comentar">
+                      <span>10</span>
+                    </a>
+                    <a href="#">
+                      <img src="/assets/img/retweetar.png" alt="retweetar">
+                      <span>50</span>
+                    </a>
+                    <a href="#">
+                      <img src="/assets/img/curti.png" alt="curtir">
+                      <span>150</span>
+                    </a>
+                    <a href="#">
+                      <img src="/assets/img/compartilhar.png" alt="compartilhar">
+                      <span>120</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Os acontecimento que fica na ultima coluna -->
+      <div class="news">
+        <div class="side-lateral">
+
+          <div class="input-search">
+            <img src="/assets/icones/search.png" alt="buscar">
+            <input type="text" placeholder="    Buscar no Twitter" class="inputbuscar">
+          </div>
+
+          <div class="news-second">
+            <div class="card-news">
+              <!-- <div class="news-title">
+                <span>O que está acontecendo</span>
+              </div> -->
+              <ul>
+                <li class="news-title">
+                  <span>O que está acontecendo?</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="news-info">
+                      <span>Covid-19</span>
+                      <span>há 47 minutos</span>
+                      <img src="/assets/icones/Vector.png" alt="seta-para-baixo">  
+                    </div>
+                    <div class="news-context">
+                      <span>Brasil ultrapass 50 mil mortos por Covid-19, diz imprensa</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <div class="news-info">
+                      <span>UFC</span>
+                      <span>AO VIVO</span>
+                      <img src="/assets/icones/Vector.png" alt="seta-para-baixo">  
+                    </div>
+                    <div class="news-context">
+                      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <div class="news-info">
+                      <span>Entretenimento</span>
+                      <span>Assunto do momento</span>
+                      <img src="/assets/icones/Vector.png" alt="seta-para-baixo">  
+                    </div>
+                    <div class="news-context">
+                      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <div class="news-info">
+                      <span>Covid-19</span>
+                      <span>há 47 minutos</span>
+                      <img src="/assets/icones/Vector.png" alt="seta-para-baixo">  
+                    </div>
+                    <div class="news-context">
+                      <span>Brasil ultrapass 50 mil mortos por Covid-19, diz imprensa</span>
+                      </div>
+                  </a>
+                </li>
+                <li class="mostramais">
+                  <a href="#">
+                    <span>Mostrar mais</span>
+                  </a>
+                </li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
